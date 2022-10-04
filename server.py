@@ -27,7 +27,7 @@ def bind_socket():
         global port 
         global s
 
-        print("Binding the Port " + str(port))
+        print("Binding the Port: " + str(port))
 
         # bind host with port
         s.bind((host, port))
